@@ -1,0 +1,129 @@
+body{
+    background-color: #D9F9F4;
+    margin: 0;
+    padding: 0;
+}
+header{
+    background-color: #5A92AF;
+    width: 100vw;
+    margin: 0;
+    padding: 10px 0; 
+}
+h1{
+    text-align: center;
+    color: whitesmoke;
+    font-family: "Lucida Console", Monaco, monospace;
+    text-decoration: none;
+    font-style: normal;
+    font-variant: normal;
+    text-transform: uppercase;
+}
+nav ul{
+    list-style: none;
+    display: flex;
+    gap: 3%;
+}
+li a{
+    text-decoration: none;
+    font-family: "Lucida Console", Monaco, monospace;
+    color: #D9F9F4;
+}
+li a:active{
+    color: #9CD9DE;
+}
+li a:hover{
+    text-decoration: underline;
+}
+h2{
+    color: #263b6e;
+    font-family: "Lucida Console", Monaco, monospace;
+    text-align: center;
+}
+.login{
+    margin-top: 2%;
+    color: #5A92AF;
+}
+p{
+    font-family: "Lucida Console", Monaco, monospace;
+    color: #5A92AF;
+    margin: 0.7%;
+    padding: 10px;
+    text-indent: 30px;
+    line-height: 1.6; 
+}
+ul{
+    list-style:circle;
+    color: #5A92AF;
+}
+table {
+    display: table;
+    width: 70%;
+    margin: 2% auto;
+    border-collapse: collapse;
+    font-family: "Lucida Console", Monaco, monospace;
+    text-align: center;
+}
+
+
+td {
+    border: 2px solid #5A92AF;
+    padding: 3%;
+    font-size: 16px;
+    color: #263b6e;
+}
+td[colspan="4"] {
+    background-color: #5A92AF;
+    color: whitesmoke;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.video {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.logo{
+    height: 40px;
+    width: auto;
+}
+input{
+    background-color:#5A92AF;
+    color: whitesmoke;
+    display: block;
+    margin: 3% auto;
+    padding: 1%;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    text-align: center; 
+}
+input::placeholder {
+    color: #D9F9F4;
+    opacity: 0.7;
+}
+button {
+    background-color: #263b6e;
+    color: whitesmoke;
+    border: none;
+    border-radius: 5px;
+    padding: 0.7%;
+    font-size: 16px;
+    cursor: pointer;
+    margin: 1% auto;
+    display: block;
+    width: 10%;
+    text-transform: uppercase;
+}
+.contacts{
+    text-align: center;
+    text-indent: 0px;
+}
+li p{
+    text-indent: 0px;
+}
+img {
+    display: block;
+    margin: 0 auto;
+    width: 30%;
+    padding: 2%;
+}
